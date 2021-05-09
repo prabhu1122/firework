@@ -7,11 +7,10 @@ class Particale {
         this.col = col;
 
         if (this.explotion){
-            this.vel = createVector(random(-2, 2), random(-10, -7));
+            this.vel = createVector(random(-2, 2), random(-12, -10));
         } else {
           this.vel = p5.Vector.random2D();
           this.vel.mult(random(8));
-          //this.vel = createVector(random(-7, 7), random(-7, 7));
         }
         this.acc = createVector(0, .1);
         this.show = function() {
