@@ -4,7 +4,7 @@ class Particale {
         this.explotion = explotion;
         this.pos = createVector(x, y);
         this.life = 255;
-        colorMode(HSB);
+        colorMode(RGB);
         this.col = col;
 
         if (this.explotion){
